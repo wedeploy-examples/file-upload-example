@@ -1,0 +1,5 @@
+{
+	"id": "site",
+	"volume": "/wedeploy-container/public/files",
+	"port": 3000
+}
