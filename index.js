@@ -8,7 +8,7 @@ const storage = multer.diskStorage({
 const upload = multer({storage});
 const app = express();
 app.post('/upload', upload.single('file'), (req, res) => {
-	res.redirect(`${req.protocol}://${req.get('host')}/files`);
+  res.redirect(`${req.protocol}://${req.get('host')}/files`);
 });
 app.use(express.static(__dirname + '/public'));
 app.use(serveIndex('public', {'icons': true}));
