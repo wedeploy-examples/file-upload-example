@@ -1,6 +1,6 @@
 # File Upload [![Badge](https://img.shields.io/badge/built%20with-wedeploy-00d46a.svg?style=flat)](http://wedeploy.com)
 
-A demo of [express-fileupload](https://www.npmjs.com/package/express-fileupload) on [WeDeploy](https://wedeploy.com/).
+An example of [express-fileupload](https://www.npmjs.com/package/express-fileupload) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
