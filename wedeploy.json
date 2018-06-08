@@ -3,5 +3,8 @@
   "port": 3000,
   "volumes": {
     "files": "/wedeploy/app/public/files"
+  },
+  "healthCheck": {
+    "url": "localhost:3000"
   }
 }
